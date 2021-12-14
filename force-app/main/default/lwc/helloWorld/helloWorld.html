@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="CHATLINGUAL" icon-name="custom:custom14">
+      <div class="slds-m-around_medium">
+        <p>Hello, {greeting}!</p>
+        <lightning-input label="Name" value={greeting} onchange={changeHandler}></lightning-input>
+      </div>
+      <lightning-button label="Neutral" title="Non-primary action" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+    </lightning-card>
+
+  </template>
